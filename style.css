@@ -1,0 +1,295 @@
+/* Add a black background color to the top navigation bar */
+.topnav{
+    background-color: rgb(11, 1, 36);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*designing the second bar*/
+.topnav p{
+    background-color: rgb(66, 6, 219);
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 15px;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+  
+/*The freecodecamp text*/
+label{
+    font-size: 30px;
+    color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active{
+    background-color: gold;
+    color: black;
+}
+  
+/* Style the search box inside the navigation bar */
+.topnav input[type=text]{
+    float: left;
+    padding: 6px;
+    border: none;
+    width: 400px;
+    margin-top: 8px;
+    margin-right: 130px;
+    font-size: 17px;
+    background-color: grey;
+}
+
+/*placeholder color*/
+.topnav ::placeholder{
+    color: white;
+}
+
+/*aligning the main*/
+.main{
+    margin: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main h6{
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.main h1{
+    font-size: 38px;
+}
+
+/*image float*/
+.profile img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.profile p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+/*big picture*/
+.image img{
+    padding-top: 30px;
+    width: 1050px;
+}
+
+/*text edit*/
+.content{
+    font-size: 20px;
+}
+
+.content h4{
+    font-weight: normal;
+}
+
+/*second large picture*/
+.image2{
+    width: 870px;
+}
+
+/*blog text align*/
+.blog h6{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+/*list of courses*/
+.list{
+    font-size: 20px;
+}
+
+.list h4{
+    font-weight: normal;
+}
+
+li{
+    margin-top: 10px;
+}
+
+/*link to video text*/
+.link{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*advert*/
+.ads img{
+    float: right;
+    height: 450px;
+    width: 300px;
+}
+
+/*line adjustments*/
+hr{
+    margin-top: 100px;
+}
+
+/*second profile*/
+.profile1{
+    margin-top: 50px;
+}
+
+.profile1 img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/*profile aligning*/
+.profile1 h6{
+    font-size: 15px;
+}
+
+.profile1 p{
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+/*second line adjustments*/
+hr{
+    margin-top: 60px;
+}
+
+/*text below the second profile*/
+.author h4{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*text below the second profile button*/
+.author button{
+    font-size: 18px;
+    border-width: 3px;
+}
+
+/*text below the second profile button hover*/
+.author button:hover{
+    font-size: 18px;
+    border-width: 3px;
+    background-color: black;
+    color: white;
+}
+
+/*buttom ad*/
+.bottom p{
+    text-align: center;
+}
+
+.bottom img{
+    width: 1050px;
+}
+
+/*footer page design*/
+.footer{
+    background-color: rgb(226, 220, 220);
+    overflow: hidden;
+}
+
+.footer1{
+    display: flex;
+}
+
+/*rhs text*/
+.right{
+    padding-left: 40px;
+    padding-top: 25px;
+    line-height: 1.8;
+}
+
+.right h4{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.right h3{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+/*lhs text*/
+.left{
+    float: right;
+    padding-top: 40px;
+}
+
+.left h4{
+    font-size: 15px;
+    padding-left: 350px;
+}
+
+.left span{
+    display: block;
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/*span alignment*/
+.span{
+    display: flex;
+    padding-left: 100px;
+}
+
+/*mobile app text*/
+.mobile{
+    padding-top: 30px;
+}
+
+/*app stores*/
+.app img{
+    width: 130px;
+    height: 40px;
+}
+
+.apple{
+    padding-left: 250px;
+}
+
+.google{
+    padding-left: 20px;
+}
+
+/*footer line break*/
+.footer hr{
+    width: 1300px;
+}
+
+/*final section*/
+.last{
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+
+.last a{
+    text-decoration: none;
+    padding-left: 32px;
+    font-size: 15px;
+    color: black;
+}
